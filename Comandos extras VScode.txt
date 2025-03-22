@@ -1,0 +1,55 @@
+======================================================================
+
+Index.html
+
+//Parte inicial do HTML //
+
+    <link rel="icon" href="assets/img/Siteicon.ico">
+    <html translate="no"> </html>
+    <meta name="google" content="notranslate">
+	
+// Link para PDF //
+
+    <a href="assets/Documents/uniformes.pdf"> ( Atrás do comandos "Button") </a> (no final da linha após o botão acessar e Button)
+	
+	
+// ID e links //
+
+    <div class="col-md-8 col-xl-6 text-center mx-auto" id="L1"> ( insira o "ID", texto " Veja a seguir " )
+	<a href="#L1"> (coloque na linha "Como funciona") </a> (Final da linha "Como funciona")
+	
+	(os Botões do Cabeçalho já estão pré definidos com o Link, você precisa apenas inseri-los, pesquise por "pedido"
+	e em seguida procure o href com o # e troque para o ID do item que irá descer, insira os IDS no "<div class="col">
+	de cada aba para descer!)
+	
+======================================================================
+
+animate.min.css
+
+// Desabilitar cópia de textos //
+// Suavidade na rolagem da página //
+// Remover sublinhado de Links //
+
+body {
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+========================================================================
+
+Simple-Slider.js
+
+// Desativar seleção com botão direito em imagens //
+
+document.querySelectorAll("img").forEach((img) => {
+    img.addEventListener("contextmenu", (event) => {
+      event.preventDefault();
+    });
+  });

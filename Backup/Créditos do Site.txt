@@ -1,0 +1,8 @@
+data da ultima modificação: 22/03/2025
+
+criado por: Kaique Becker
+
+Programas ultilizados:
+
+• VSCode
+• Bootstrap
